@@ -38,8 +38,8 @@ dependencies {
     compile "io.reactivex.rxjava2:rxandroid:$rxjava_android_version"
     compile "com.squareup.okhttp3:logging-interceptor:$okhttp3_logging_version"
     implementation 'com.github.f0ris.sweetalert:library:1.5.1'
-    debugApi 'com.readystatesoftware.chuck:library:1.1.0'
-    releaseApi 'com.readystatesoftware.chuck:library-no-op:1.1.0'
+    debugCompile  'com.readystatesoftware.chuck:library:1.1.0'
+    releaseCompile  'com.readystatesoftware.chuck:library-no-op:1.1.0'
     compile('com.github.ihsanbal:LoggingInterceptor:2.0.5') {
         exclude group: 'org.json', module: 'json'
     }
